@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f7f7f7;
+}
+
+body {
+  color: #444444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+  position: relative;
+}
+
+th {
+  background-color: #1098ad;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Warna untuk baris genap */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+td[colspan="3"] {
+  background-color: #1098ad; /* Warna latar belakang biru */
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: gainsboro;
+}
+
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  padding: 12 px 2-px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+#message {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.button {
+  background-color: #1098ad;
+  color: white;
+  padding: 5px;
+}
+
+.check {
+  margin: 0 auto;
+}
+
+#w3review {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid;
+}
+
+.login {
+  max-width: 200px;
+}
+
+.register {
+  width: 200px;
+  position: relative;
+  margin-right: 100px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 200%;
+  padding: 12 px 2-px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.pw {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 3px;
+  margin-top: 100px;
+}
+
+.tempat-button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+select {
+  background-color: transparent;
+  width: 200%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid;
+}
